@@ -1,2 +1,2 @@
-web: gunicorn wsgi:tutorial
+web: gunicorn tutorial.wsgi
 heroku ps:scale web=1
