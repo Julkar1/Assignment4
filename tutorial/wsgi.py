@@ -11,6 +11,12 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
+#from tutorial.main import tutorial
+ 
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tutorial.settings')
 
 application = get_wsgi_application()
+
+if __name__ == "__main__":
+        tutorial.run()
